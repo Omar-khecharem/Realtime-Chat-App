@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=+, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css"> 
+    <title>Real Time Chat App</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Realtime Chat App</h1>
+    <span id="ligne"></span>
+
+    <form action="">
+        <div>
+            <p id="error">All input fields are Required!</p>
+        </div>
+        <div class="name">
+            <div class="first-name">
+                <label for="first-name">
+                    First Name
+                </label>
+                <input type="text" name="firstname" id="first-name" placeholder="First Name">
+            </div>
+            <div class="last-name">
+                    <label for="last-name">
+                    last Name
+                </label>
+                <input type="text" name="lastname" id="last-name" placeholder="Last Name">
+            </div>
+        </div>
+
+        <div class="email">
+            <label for="email">E-mail Adress</label>
+            <input type="text" name="email" id="email" placeholder="Enter your email">
+            
+        </div>
+        <div class="password">
+            <label for="password">Password</label>
+          <div class="pass-eye">
+            <input type="password" name="password" id="password" placeholder="Enter your new Password">
+            <span>
+                <img src="view.png" alt="" id="view">
+            </span>
+            </div>
+        </div>
+        <div class="file">
+            <label for="file">Select Image</label>
+            <input type="file" name="file" id="file" >
+          
+        </div>
+        <button>Continue to Chat</button>
+      <p id="qa">
+        Already signed up ? <a href="./Login.html">Login now</a>
+    </p>
+    </form>
+    </div>
+</body>
+</html>
