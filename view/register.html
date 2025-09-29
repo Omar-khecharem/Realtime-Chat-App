@@ -1,16 +1,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=+, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css"> 
     <title>Real Time Chat App</title>
 </head>
 <body>
+    
     <div class="container">
         <h1 class="title">Realtime Chat App</h1>
-    <span id="ligne"></span>
-
-    <form action="">
+        <span id="ligne"></span>
+        
+        <form action="">
+        <div class="mouse"></div>
         <div>
             <p id="error" class="error">All input fields are Required!</p>
         </div>
@@ -31,7 +33,7 @@
 
         <div class="email">
             <label for="email">E-mail Adress</label>
-            <input type="text" name="email" id="email" placeholder="Enter your email">
+            <input type="text" name="email" id="emailR" placeholder="Enter your email">
             
         </div>
         <div class="password">
@@ -39,7 +41,7 @@
           <div class="pass-eye">
             <input type="password" name="password" id="password" placeholder="Enter your new Password">
             <span>
-                <img src="view.png" alt="" id="view">
+                <img src="../assets/view.png" alt="" id="view">
             </span>
             </div>
         </div>
@@ -50,10 +52,10 @@
         </div>
         <button id="bttn">Continue to Chat</button>
       <p id="qa">
-        Already signed up ? <a href="./Login.html">Login now</a>
+        Already signed up ? <a href="../view/Login.html">Login now</a>
     </p>
     </form>
     </div>
-    <script src="script.js"> </script>
+    <script src="../js/register.js"> </script>
 </body>
 </html>
