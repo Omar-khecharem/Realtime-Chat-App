@@ -13,7 +13,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vw;
-        background-color: #80808020;
+    background-color: #80808020;
 }
 
 .container {
@@ -24,14 +24,127 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding:1rem 1rem;
+    overflow: hidden;
     border-radius: 15px;
-     background-color: white;
+    background-color: white;
 
 
 }
 
-#user{
+.header {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    padding: 1rem;
+    gap: 1rem;
+
+}
+
+#user {
     height: 3rem;
     width: 3rem;
+    border-radius: 100%;
+
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#arrow {
+    height: 2.5rem;
+
+    object-fit: cover;
+    
+}
+
+.bottom-sending {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+#send {
+    width: 2rem;
+
+    background-color: rgba(128, 128, 128, 0.489);
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+
+
+}
+
+.send-border {
+    border: 1px solid;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 3rem;
+
+}
+
+#send-inp {
+    flex: 1;
+    border: 0;
+    padding: 15px;
+    outline: none;
+    font-size: 16px;
+
+    overflow-y: auto;
+    height: auto;
+
+
+}
+
+
+
+#msg {
+    background: rgb(85, 83, 83);
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 15px 15px 15px 0px;
+    width: auto;
+    max-width: 80%;
+    align-self: flex-start;
+}
+.msg {
+    background: rgb(85, 83, 83);
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 15px 15px 15px 0px;
+    width: auto;
+    max-width: 80%;
+    align-self: flex-start;
+}
+
+
+.content {
+    background-color: #80808020;
+    flex: 1;
+    width: 100%;
+    display: flex;
+    
+    
+    flex-direction: column;
+    gap: 1rem;
+    overflow-y: auto;
+    padding-left: 1rem;
+    padding-top:2rem ;
+    padding-bottom:2rem ;
+
+
+
+
 }

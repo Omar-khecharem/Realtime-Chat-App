@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="chat.css">
+    <link rel="stylesheet" href="chat.css">
     <title>Document</title>
 </head>
 
@@ -12,27 +12,38 @@
         <div class="header">
 
             <div class="images">
-                <img src="" alt="arrow">
+                <a href="./User.html"> <img src="./right-arrow.png" alt="arrow" id="arrow"></a>
+
                 <img src="./user.jpg" alt="user" id="user">
-                <div class="info-user">
-                    <h1>Omar Khcharem</h1>
-                    <p>Active now</p>
-                </div>
             </div>
-            <div class="content">
-                <div class="msg">
-                    Hey Omar How are U Today
-                </div>
-            </div>
-            <div class="bottom-sending">
-                <input type="text" name="" id="" placeholder="Type a message here...">
-                <span>
-                    <img src="" alt="send-img">
-                </span>
+            <div class="info-user">
+                <h3>Omar Khcharem</h3>
+                <p>Active now</p>
             </div>
 
         </div>
+        <div class="content" id="contenu">
+            <span id="msg">
+                Hey Omar How are U Today
+            </span>
+
+
+
+        </div>
+        <div class="bottom-sending">
+            <div class="send-border">
+                <input type="text" name="" id="send-inp" placeholder="Type a message here...">
+
+                <span id="send-btn">
+                    <img src="./avion-en-papier.png" alt="send-img" id="send">
+                </span>
+
+            </div>
+        </div>
+
+
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>

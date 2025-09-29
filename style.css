@@ -13,9 +13,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vw;
+    min-height: 10vw;
     background-color: #80808020;
     overflow: hidden;
+    
 }
 
 .container-login {
@@ -51,9 +52,10 @@ body {
 
 }
 
-#error {
+
+.error {
     background-color: rgba(240, 128, 128, 0.448);
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     color: brown;
@@ -123,8 +125,8 @@ input[type='file'] {
 
 #hidden,
 #view {
-    width: 2rem;
-    height: 2rem;
+    width: 1.1rem;
+    height: 1.1rem;
     margin: 5px 7px;
     cursor: pointer;
 
